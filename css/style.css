@@ -1,0 +1,66 @@
+html {
+    scroll-behavior: none !important;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+a {
+    transition: color 0.5s ease;
+}
+
+header ul li a:hover {
+    color: tomato !important;
+}
+
+header {
+    background-image: linear-gradient(rgba(255, 0, 0, 0.5), rgba(255, 0, 0, 0.5)), url('../img/events-heavenly-header.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 90%;
+}
+
+aside {
+    height: 100vh;
+    position: fixed;
+    left: -18.75rem;
+    top: 0;
+    width: 18.75rem;
+    background-color: black;
+    z-index: 99;
+}
+
+h1 {
+    font-size: 5rem !important;
+}
+
+.drop-item .drop-overlay {
+    cursor: pointer;
+}
+
+.drop-item .drop-body {
+    display: none;
+}
+
+textarea {
+    height: 320px;
+}
+
+section ul li {
+    width: 2.5rem;
+    height: 2.5rem;
+    padding: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+section ul li:hover {
+    background-color: tomato;
+    border-color: tomato;
+}
